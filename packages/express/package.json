@@ -27,6 +27,7 @@
     "url": "git+https://github.com/pmarino84/servify.git"
   },
   "scripts": {
+    "test": "jest",
     "build": "tsc"
   },
   "bugs": {
