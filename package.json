@@ -1,0 +1,18 @@
+{
+  "name": "servify",
+  "version": "1.0.0",
+  "description": "Collections of builder to improve nodejs server creation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmarino84/servify.git"
+  },
+  "keywords": [],
+  "author": "Pietro Marino <pietro.marino_84@hotmail.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmarino84/servify/issues"
+  },
+  "homepage": "https://github.com/pmarino84/servify#readme"
+}
