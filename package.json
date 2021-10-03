@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Collections of builder to improve nodejs server creation",
   "main": "index.js",
-  "scripts": {},
+  "private": true,
+  "scripts": {
+    "test": "lerna run test --parallel"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmarino84/servify.git"
@@ -15,8 +18,19 @@
     "url": "https://github.com/pmarino84/servify/issues"
   },
   "homepage": "https://github.com/pmarino84/servify#readme",
-  "workspaces": ["packages"],
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@types/jest": "^27.0.2",
+    "@types/lodash": "^4.14.175",
+    "jest": "^27.2.4",
+    "lerna": "^4.0.0",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }

@@ -1,0 +1,14 @@
+.git
+.github
+.gitignore
+.vscode
+
+examples
+src
+test
+.editorconfig
+.eslintrc.json
+.jest.config.js
+todo.md
+tsconfig.eslint.json
+tsconfig.json
