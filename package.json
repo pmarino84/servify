@@ -14,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/pmarino84/servify/issues"
   },
-  "homepage": "https://github.com/pmarino84/servify#readme"
+  "homepage": "https://github.com/pmarino84/servify#readme",
+  "workspaces": ["packages"],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
